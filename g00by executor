@@ -5,10 +5,8 @@
 
 local xd = Instance.new("ScreenGui")
 local ShopBackGround = Instance.new("Frame")
-local TextBox = Instance.new("TextBox")
 local TextLabel = Instance.new("TextLabel")
 local unfe = Instance.new("TextButton")
-local clear = Instance.new("TextButton")
 local TextButton = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
@@ -18,8 +16,11 @@ local TextButton_4 = Instance.new("TextButton")
 local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
-local TextButton_8 = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
 local ImageLabel = Instance.new("ImageLabel")
+local clear = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -32,28 +33,15 @@ ShopBackGround.Parent = xd
 ShopBackGround.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
 ShopBackGround.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ShopBackGround.BorderSizePixel = 7
-ShopBackGround.Position = UDim2.new(0.204640254, 0, 0.189643785, 0)
+ShopBackGround.Position = UDim2.new(0.185088634, 0, 0.173153028, 0)
 ShopBackGround.Size = UDim2.new(0, 500, 0, 376)
-
-TextBox.Parent = ShopBackGround
-TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.BorderSizePixel = 4
-TextBox.Position = UDim2.new(0.0476190485, 0, 0.181818187, 0)
-TextBox.Size = UDim2.new(0, 376, 0, 195)
-TextBox.Font = Enum.Font.Arcade
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
-TextBox.TextSize = 14.000
-TextBox.TextXAlignment = Enum.TextXAlignment.Left
-TextBox.TextYAlignment = Enum.TextYAlignment.Top
 
 TextLabel.Parent = ShopBackGround
 TextLabel.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 4
-TextLabel.Position = UDim2.new(0.157142863, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 287, 0, 50)
+TextLabel.Position = UDim2.new(0.155142888, 0, 0.00531914877, 0)
+TextLabel.Size = UDim2.new(0, 287, 0, 52)
 TextLabel.Font = Enum.Font.Arcade
 TextLabel.Text = "G00BY SECRET EXECUTER V1"
 TextLabel.TextColor3 = Color3.fromRGB(194, 194, 194)
@@ -66,7 +54,7 @@ unfe.Parent = ShopBackGround
 unfe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 unfe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 unfe.BorderSizePixel = 4
-unfe.Position = UDim2.new(0.0156190488, 0, 0.750172734, 0)
+unfe.Position = UDim2.new(0.0136190495, 0, 0.782087624, 0)
 unfe.Size = UDim2.new(0, 130, 0, 67)
 unfe.Font = Enum.Font.Arcade
 unfe.Text = "EXE"
@@ -75,25 +63,11 @@ unfe.TextScaled = true
 unfe.TextSize = 14.000
 unfe.TextWrapped = true
 
-clear.Name = "clear"
-clear.Parent = ShopBackGround
-clear.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
-clear.BorderSizePixel = 4
-clear.Position = UDim2.new(0.293333322, 0, 0.750172734, 0)
-clear.Size = UDim2.new(0, 130, 0, 67)
-clear.Font = Enum.Font.Arcade
-clear.Text = "CLEAR"
-clear.TextColor3 = Color3.fromRGB(178, 178, 178)
-clear.TextScaled = true
-clear.TextSize = 14.000
-clear.TextWrapped = true
-
 TextButton.Parent = ShopBackGround
 TextButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 4
-TextButton.Position = UDim2.new(0.584761977, 0, 0.73421526, 0)
+TextButton.Position = UDim2.new(0.584761977, 0, 0.774108887, 0)
 TextButton.Size = UDim2.new(0, 73, 0, 73)
 TextButton.Font = Enum.Font.Arcade
 TextButton.Text = "ATTACH"
@@ -189,15 +163,52 @@ TextButton_6.TextWrapped = true
 TextButton_7.Parent = Frame
 TextButton_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.BorderSizePixel = 2
+TextButton_7.BorderSizePixel = 4
 TextButton_7.Position = UDim2.new(-0.103896104, 0, 1.07245541, 0)
-TextButton_7.Size = UDim2.new(0, 85, 0, 59)
+TextButton_7.Size = UDim2.new(0, 85, 0, 85)
 TextButton_7.Font = Enum.Font.Arcade
 TextButton_7.Text = "SCRIPT HUB"
 TextButton_7.TextColor3 = Color3.fromRGB(178, 178, 178)
 TextButton_7.TextScaled = true
 TextButton_7.TextSize = 14.000
 TextButton_7.TextWrapped = true
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 4
+TextBox.Position = UDim2.new(-5.29870129, 0, 0.24714829, 0)
+TextBox.Size = UDim2.new(0, 372, 0, 207)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.Arcade
+TextBox.Text = "print(\"sigma\")"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+ImageLabel.Parent = ShopBackGround
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 4
+ImageLabel.Position = UDim2.new(0.0120000001, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 63, 0, 55)
+ImageLabel.Image = "rbxassetid://117824468938335"
+
+clear.Name = "clear"
+clear.Parent = ShopBackGround
+clear.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 4
+clear.Position = UDim2.new(0.287836045, 0, 0.78137207, 0)
+clear.Size = UDim2.new(0, 130, 0, 67)
+clear.Font = Enum.Font.Arcade
+clear.Text = "CLEAR"
+clear.TextColor3 = Color3.fromRGB(178, 178, 178)
+clear.TextScaled = true
+clear.TextSize = 14.000
+clear.TextWrapped = true
 
 TextButton_8.Parent = xd
 TextButton_8.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
@@ -212,17 +223,17 @@ TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14.000
 TextButton_8.TextWrapped = true
 
-ImageLabel.Parent = TextButton_8
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 4
-ImageLabel.Position = UDim2.new(1.05405402, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 71, 0, 50)
-ImageLabel.Image = "rbxassetid://95388744139312"
+ImageLabel_2.Parent = TextButton_8
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 4
+ImageLabel_2.Position = UDim2.new(1.05405402, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 71, 0, 50)
+ImageLabel_2.Image = "rbxassetid://95388744139312"
 
 -- Scripts:
 
-local function KEVATV_fake_script() -- unfe.Script 
+local function CMDU_fake_script() -- unfe.Script 
 	local script = Instance.new('Script', unfe)
 
 	
@@ -238,22 +249,8 @@ local function KEVATV_fake_script() -- unfe.Script
 	unfe.MouseButton1Click:Connect(executeScript)
 	
 end
-coroutine.wrap(KEVATV_fake_script)()
-local function GYBUBA_fake_script() -- clear.Script 
-	local script = Instance.new('Script', clear)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.TextBox.Text = "Clearing..."
-		wait(math.random(5,10))
-		script.Parent.Parent.TextBox.Text = "Done!"
-		wait(1)
-		script.Parent.Parent.TextBox.Text = ""
-	end)
-	
-	
-end
-coroutine.wrap(GYBUBA_fake_script)()
-local function BDRJBOT_fake_script() -- TextButton.Script 
+coroutine.wrap(CMDU_fake_script)()
+local function TRROFR_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -269,8 +266,8 @@ local function BDRJBOT_fake_script() -- TextButton.Script
 	end)
 	
 end
-coroutine.wrap(BDRJBOT_fake_script)()
-local function TOVU_fake_script() -- ShopBackGround.LocalScript 
+coroutine.wrap(TRROFR_fake_script)()
+local function ESHJ_fake_script() -- ShopBackGround.LocalScript 
 	local script = Instance.new('LocalScript', ShopBackGround)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -314,8 +311,8 @@ local function TOVU_fake_script() -- ShopBackGround.LocalScript
 	end)
 	
 end
-coroutine.wrap(TOVU_fake_script)()
-local function WTNJM_fake_script() -- TextButton_2.Script 
+coroutine.wrap(ESHJ_fake_script)()
+local function GPNKH_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -324,8 +321,8 @@ local function WTNJM_fake_script() -- TextButton_2.Script
 	
 	
 end
-coroutine.wrap(WTNJM_fake_script)()
-local function GVBXMTZ_fake_script() -- TextButton_3.Script 
+coroutine.wrap(GPNKH_fake_script)()
+local function ZBUNDBQ_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -334,8 +331,8 @@ local function GVBXMTZ_fake_script() -- TextButton_3.Script
 	
 	
 end
-coroutine.wrap(GVBXMTZ_fake_script)()
-local function LPWMU_fake_script() -- TextButton_4.Script 
+coroutine.wrap(ZBUNDBQ_fake_script)()
+local function XCQXZ_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -344,8 +341,8 @@ local function LPWMU_fake_script() -- TextButton_4.Script
 	
 	
 end
-coroutine.wrap(LPWMU_fake_script)()
-local function XJGA_fake_script() -- TextButton_5.Script 
+coroutine.wrap(XCQXZ_fake_script)()
+local function ZIZOY_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -354,8 +351,8 @@ local function XJGA_fake_script() -- TextButton_5.Script
 	
 	
 end
-coroutine.wrap(XJGA_fake_script)()
-local function UDHQJF_fake_script() -- TextButton_6.Script 
+coroutine.wrap(ZIZOY_fake_script)()
+local function GCZPDTE_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -364,8 +361,8 @@ local function UDHQJF_fake_script() -- TextButton_6.Script
 	
 	
 end
-coroutine.wrap(UDHQJF_fake_script)()
-local function POEZGT_fake_script() -- TextButton_7.Script 
+coroutine.wrap(GCZPDTE_fake_script)()
+local function VOXINI_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -374,8 +371,22 @@ local function POEZGT_fake_script() -- TextButton_7.Script
 	
 	
 end
-coroutine.wrap(POEZGT_fake_script)()
-local function AKRNIJL_fake_script() -- TextButton_8.Script 
+coroutine.wrap(VOXINI_fake_script)()
+local function OEDU_fake_script() -- clear.Script 
+	local script = Instance.new('Script', clear)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TextBox.Text = "Clearing..."
+		wait(math.random(5,10))
+		script.Parent.Parent.TextBox.Text = "Done!"
+		wait(1)
+		script.Parent.Parent.TextBox.Text = ""
+	end)
+	
+	
+end
+coroutine.wrap(OEDU_fake_script)()
+local function KVBBQX_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -383,8 +394,8 @@ local function AKRNIJL_fake_script() -- TextButton_8.Script
 	end)
 	
 end
-coroutine.wrap(AKRNIJL_fake_script)()
-local function WQBEXW_fake_script() -- TextButton_8.Script 
+coroutine.wrap(KVBBQX_fake_script)()
+local function AMITSV_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -428,4 +439,4 @@ local function WQBEXW_fake_script() -- TextButton_8.Script
 	end)
 	
 end
-coroutine.wrap(WQBEXW_fake_script)()
+coroutine.wrap(AMITSV_fake_script)()
