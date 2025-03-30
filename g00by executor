@@ -1,0 +1,431 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local xd = Instance.new("ScreenGui")
+local ShopBackGround = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local unfe = Instance.new("TextButton")
+local clear = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+xd.Name = "xd"
+xd.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+xd.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ShopBackGround.Name = "ShopBackGround"
+ShopBackGround.Parent = xd
+ShopBackGround.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+ShopBackGround.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ShopBackGround.BorderSizePixel = 7
+ShopBackGround.Position = UDim2.new(0.204640254, 0, 0.189643785, 0)
+ShopBackGround.Size = UDim2.new(0, 500, 0, 376)
+
+TextBox.Parent = ShopBackGround
+TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 4
+TextBox.Position = UDim2.new(0.0476190485, 0, 0.181818187, 0)
+TextBox.Size = UDim2.new(0, 376, 0, 195)
+TextBox.Font = Enum.Font.Arcade
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel.Parent = ShopBackGround
+TextLabel.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 4
+TextLabel.Position = UDim2.new(0.157142863, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 287, 0, 50)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.Text = "G00BY SECRET EXECUTER V1"
+TextLabel.TextColor3 = Color3.fromRGB(194, 194, 194)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+unfe.Name = "unfe"
+unfe.Parent = ShopBackGround
+unfe.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+unfe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+unfe.BorderSizePixel = 4
+unfe.Position = UDim2.new(0.0156190488, 0, 0.750172734, 0)
+unfe.Size = UDim2.new(0, 130, 0, 67)
+unfe.Font = Enum.Font.Arcade
+unfe.Text = "EXE"
+unfe.TextColor3 = Color3.fromRGB(178, 178, 178)
+unfe.TextScaled = true
+unfe.TextSize = 14.000
+unfe.TextWrapped = true
+
+clear.Name = "clear"
+clear.Parent = ShopBackGround
+clear.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 4
+clear.Position = UDim2.new(0.293333322, 0, 0.750172734, 0)
+clear.Size = UDim2.new(0, 130, 0, 67)
+clear.Font = Enum.Font.Arcade
+clear.Text = "CLEAR"
+clear.TextColor3 = Color3.fromRGB(178, 178, 178)
+clear.TextScaled = true
+clear.TextSize = 14.000
+clear.TextWrapped = true
+
+TextButton.Parent = ShopBackGround
+TextButton.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 4
+TextButton.Position = UDim2.new(0.584761977, 0, 0.73421526, 0)
+TextButton.Size = UDim2.new(0, 73, 0, 73)
+TextButton.Font = Enum.Font.Arcade
+TextButton.Text = "ATTACH"
+TextButton.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Frame.Parent = ShopBackGround
+Frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.828000009, 0, 0, 0)
+Frame.Size = UDim2.new(0, 77, 0, 263)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 77, 0, 37)
+TextLabel_2.Font = Enum.Font.Arcade
+TextLabel_2.Text = "EXTRA SCRIPTS"
+TextLabel_2.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 2
+TextButton_2.Position = UDim2.new(0.19480519, 0, 0.186523899, 0)
+TextButton_2.Size = UDim2.new(0, 46, 0, 31)
+TextButton_2.Font = Enum.Font.Arcade
+TextButton_2.Text = "IY"
+TextButton_2.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 2
+TextButton_3.Position = UDim2.new(0.19480519, 0, 0.32720831, 0)
+TextButton_3.Size = UDim2.new(0, 46, 0, 31)
+TextButton_3.Font = Enum.Font.Arcade
+TextButton_3.Text = "DEX EXPLORER"
+TextButton_3.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 2
+TextButton_4.Position = UDim2.new(0.19480519, 0, 0.467892736, 0)
+TextButton_4.Size = UDim2.new(0, 46, 0, 31)
+TextButton_4.Font = Enum.Font.Arcade
+TextButton_4.Text = "FLING GUI"
+TextButton_4.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 2
+TextButton_5.Position = UDim2.new(0.19480519, 0, 0.619983971, 0)
+TextButton_5.Size = UDim2.new(0, 46, 0, 31)
+TextButton_5.Font = Enum.Font.Arcade
+TextButton_5.Text = "ANIMATRIX"
+TextButton_5.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 2
+TextButton_6.Position = UDim2.new(0.19480519, 0, 0.772075236, 0)
+TextButton_6.Size = UDim2.new(0, 46, 0, 31)
+TextButton_6.Font = Enum.Font.Arcade
+TextButton_6.Text = "ESP"
+TextButton_6.TextColor3 = Color3.fromRGB(175, 175, 175)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 2
+TextButton_7.Position = UDim2.new(-0.103896104, 0, 1.07245541, 0)
+TextButton_7.Size = UDim2.new(0, 85, 0, 59)
+TextButton_7.Font = Enum.Font.Arcade
+TextButton_7.Text = "SCRIPT HUB"
+TextButton_7.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = xd
+TextButton_8.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 4
+TextButton_8.Position = UDim2.new(0.0208550561, 0, 0.0428759865, 0)
+TextButton_8.Size = UDim2.new(0, 148, 0, 50)
+TextButton_8.Font = Enum.Font.Arcade
+TextButton_8.Text = "OPEN EXECUTOR/CLOSE EXECUTOR"
+TextButton_8.TextColor3 = Color3.fromRGB(178, 178, 178)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+ImageLabel.Parent = TextButton_8
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 4
+ImageLabel.Position = UDim2.new(1.05405402, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 71, 0, 50)
+ImageLabel.Image = "rbxassetid://95388744139312"
+
+-- Scripts:
+
+local function KEVATV_fake_script() -- unfe.Script 
+	local script = Instance.new('Script', unfe)
+
+	
+	local function executeScript()
+		local script = TextBox.Text
+		if script ~= "" then
+			loadstring(script)()
+		else
+			print("No script entered")
+		end
+	end
+	
+	unfe.MouseButton1Click:Connect(executeScript)
+	
+end
+coroutine.wrap(KEVATV_fake_script)()
+local function GYBUBA_fake_script() -- clear.Script 
+	local script = Instance.new('Script', clear)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.TextBox.Text = "Clearing..."
+		wait(math.random(5,10))
+		script.Parent.Parent.TextBox.Text = "Done!"
+		wait(1)
+		script.Parent.Parent.TextBox.Text = ""
+	end)
+	
+	
+end
+coroutine.wrap(GYBUBA_fake_script)()
+local function BDRJBOT_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "attaching..."
+		wait(4)
+		script.Parent.Text = "done!"
+		script.Parent.Parent.clear.Enabled = true
+		script.Parent.Parent.unfe.Enabled = true
+		wait(1)
+		script.Parent.Text = "attach (already attached)"
+		wait(1)
+		script.Parent.Enabled = false
+	end)
+	
+end
+coroutine.wrap(BDRJBOT_fake_script)()
+local function TOVU_fake_script() -- ShopBackGround.LocalScript 
+	local script = Instance.new('LocalScript', ShopBackGround)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(TOVU_fake_script)()
+local function WTNJM_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+	
+	
+end
+coroutine.wrap(WTNJM_fake_script)()
+local function GVBXMTZ_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/BigBoyTimme/New.Loadstring.Scripts/refs/heads/main/Dex.Explorer"))()
+	end)
+	
+	
+end
+coroutine.wrap(GVBXMTZ_fake_script)()
+local function LPWMU_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+	end)
+	
+	
+end
+coroutine.wrap(LPWMU_fake_script)()
+local function XJGA_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ocfi/aqua-hub-is-a-skid-lol/refs/heads/main/animatrix"))()
+	end)
+	
+	
+end
+coroutine.wrap(XJGA_fake_script)()
+local function UDHQJF_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CesiumHub-Dev/ClxqEspGui/refs/heads/main/source"))()
+	end)
+	
+	
+end
+coroutine.wrap(UDHQJF_fake_script)()
+local function POEZGT_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ScriptHub"))()
+	end)
+	
+	
+end
+coroutine.wrap(POEZGT_fake_script)()
+local function AKRNIJL_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ShopBackGround.Visible = not script.Parent.Parent.ShopBackGround.Visible
+	end)
+	
+end
+coroutine.wrap(AKRNIJL_fake_script)()
+local function WQBEXW_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(WQBEXW_fake_script)()
